@@ -1,0 +1,45 @@
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <welcome-file>
+  	<file-name>index.jsp</file-name>
+  </welcome-file>
+  <servlet>
+  	<servlet-name>approch1</servlet-name>
+  	<servlet-class>com.maroti.servlet.controller.Approch1Client</servlet-class>
+  	<init-param>
+  		<param-name>user1</param-name>
+  		<param-name>Maroti</param-name>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>approch1</servlet-name>
+  	<url-pattern>/show1</url-pattern>
+  
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>approch2</servlet-name>
+  	<servlet-class>com.maroti.servlet.controller.Approch2Client</servlet-class>
+  	<init-param>
+  		<param-name>user2</param-name>
+  		<param-name>Jagruti</param-name>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>approch2</servlet-name>
+  	<url-pattern>/show2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>approch3</servlet-name>
+  	<servlet-class>com.maroti.servlet.controller.Approch3Client</servlet-class>
+  <init-param>
+  		<param-name>user3</param-name>
+  		<param-name>Prashant</param-name>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>approch3</servlet-name>
+  	<url-pattern>/show3</url-pattern>
+  </servlet-mapping>
+</web-app>
